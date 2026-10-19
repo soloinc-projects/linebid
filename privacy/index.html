@@ -168,13 +168,22 @@
 
       <div class="metadata">
         <strong>Effective date:</strong> October 17, 2026<br>
-        <strong>Last updated:</strong> October 17, 2026<br>
+        <strong>Last updated:</strong> October 18, 2026<br>
         <strong>Language:</strong> English (US)
       </div>
 
       <h2>What LineBid collects</h2>
       <p><strong>Nothing.</strong></p>
       <p>LineBid has no account, no sign-in, and makes no network calls of its own. All data you create — the labor and material rates you edit, and the quantities and totals you calculate for each estimate — is stored only in a local file on your device and never transmitted anywhere by the app.</p>
+      <p>Everything the app keeps, and what it does with each:</p>
+      <ul>
+        <li><strong>Your rate catalog</strong> (the starter rates as you edit them, and any rows you add): kept on your device so every estimate can be priced from it.</li>
+        <li><strong>Estimates and saved estimates</strong> (quantities, lines, totals, your markup, and the job / customer label you type, which may include a customer's name): kept on your device so you can reopen and export them. If you save an estimate, its label and total are added to your iPhone's own Spotlight search index so you can find it there; that index stays on your device.</li>
+        <li><strong>Your settings</strong> (your markup percentage, and whether you have seen the first screen): kept on your device.</li>
+        <li><strong>A crash note</strong>: if the app crashes, it writes a short technical note (the signal and the code location, no estimate content) to its own storage, and writes it into your device's system log the next time it opens. It is never sent to us or anyone else.</li>
+        <li><strong>Age range signal</strong>: where Apple's Declared Age Range service is available, the app asks it once at first launch, as some U.S. state laws require. Nothing in the app is hidden or changed by the answer. The age range itself is not kept or sent anywhere; the app notes only that the check ran in your device's own system log.</li>
+        <li><strong>The PDF you export</strong>: created on your device and handed to the share sheet or Files; where it goes after that is your choice.</li>
+      </ul>
 
       <h2>Where your data lives</h2>
       <p>Your rate catalog and saved estimates are stored in the app's own local storage on your device (<code>CatalogStore</code>, a JSON file in iOS's app-sandboxed container). This file is encrypted by iOS at the device level when you enable device lock.</p>
